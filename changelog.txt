@@ -1,4 +1,4 @@
-1.0.0
+0.7.0
 - Code-rewrite by sphere
 - Changed: Now using XBMC-InfoLabel for date
 - Added: Random Video
