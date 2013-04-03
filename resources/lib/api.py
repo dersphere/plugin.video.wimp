@@ -71,7 +71,7 @@ class WimpApi():
             'title': video['title'],
             'date': self.__format_date(video['date']),
             'page': video['page'],
-            'thumb': video.get('thumb_1316_866') or video.get('thumb_1164_766'),
+            'thumb': video.get('thumb_1316_866', video.get('thumb_1164_766')),
             'video_url': video['video_hq_url'],
         } for video in videos]
 
